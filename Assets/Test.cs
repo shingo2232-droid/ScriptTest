@@ -19,6 +19,7 @@ public class Test : MonoBehaviour
         //配列の要素を順番に表示する
         for (int i = 0; i < 5; i++)
         {
+            Debug.Log(points[i]);
         }
         //配列の要素を逆順に表示する
         for (int i = points.Length - 1; 0 <= i; i--)
